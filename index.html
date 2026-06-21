@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ranish Umasuthan - Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+
+
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-id">Ranish <span>Umasuthan</span></div>
+  <ul class="nav-links">
+    <li><a href="#project">Project</a></li>
+    <li><a href="#ai">AI & Process</a></li>
+    <li><a href="#learned">Reflections</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Connect</a>
+  <button class="ham-btn" onclick="toggleMenu()" aria-label="Menu">
+    <div class="ham" id="ham"><span></span><span></span><span></span></div>
+  </button>
+</nav>
+
+<div id="mobMenu" class="mob-menu">
+  <a href="#hero"     onclick="closeMenu()">Home</a>
+  <a href="#project"  onclick="closeMenu()">Project</a>
+  <a href="#ai"       onclick="closeMenu()">AI & Process</a>
+  <a href="#learned"  onclick="closeMenu()">Reflections</a>
+  <a href="#skills"   onclick="closeMenu()">Skills</a>
+  <a href="#about"    onclick="closeMenu()">About</a>
+  <a href="#contact"  onclick="closeMenu()">Contact</a>
+</div>
+
+<!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+<section id="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-bg-num" aria-hidden="true">01</div>
+  <div class="c-mark tl"></div>
+  <div class="c-mark tr"></div>
+  <div class="c-mark bl"></div>
+  <div class="c-mark br"></div>
+
+  <div class="hero-inner">
+    <div class="hero-left">
+      <p class="hero-coords">Engineer & Entrepreneur · Toronto, ON · 2026</p>
+      <h1 class="hero-name">Engineer<br><em>in</em><br>Progress</h1>
+    </div>
+    <div class="hero-right">
+      <p class="hero-role-tag">Student · Builder · Entrepreneur</p>
+      <p class="hero-desc">
+        I build real things for real clients. I'm driven by engineering, fascinated by technology, and drawn to the intersection where systems thinking meets creative execution.
+      </p>
+      <div class="hero-ctas">
+        <a href="#project" class="btn btn-w">See My Work</a>
+        <a href="#about" class="btn btn-g">Who I Am</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-ticker" aria-hidden="true">
+    <div class="ticker-bar"></div>
+    <span>Scroll to explore</span>
+  </div>
+</section>
+
+<!-- STRIP -->
+<div class="strip">
+  <span class="lit">· Real Client Work</span>
+  <span>· AI-Augmented Workflow</span>
+  <span>· Shipped & Live</span>
+  <span>· Engineering Mindset</span>
+  <span>· Entrepreneurial Drive</span>
+  <span>· Toronto, Canada</span>
+</div>
+
+<!-- ═══════════════════════════ PROJECT ═══════════════════════════ -->
+<section id="project">
+
+  <div class="proj-head">
+    <div class="rz">
+      <p class="proj-eyebrow">Featured Project · 2026</p>
+      <h2 class="proj-title">Black Diamond<br><em>Motors</em></h2>
+    </div>
+    <p class="proj-sub rz d1">
+      A full luxury car rental website, designed and built from scratch — now live as the company's official digital presence.
+    </p>
+  </div>
+
+  <!-- Full-bleed mockup -->
+  <div class="proj-visual-strip rz d1">
+    <img src="assets/bdm-mockup.png" alt="A full-page mockup of the Black Diamond Motors website, showing a cinematic hero with an animated vehicle showcase, a fleet browser, and a reservation flow." class="proj-mockup">
+  </div>
+
+  <!-- Info row -->
+  <div class="proj-info-row">
+    <div class="info-cell rz">
+      <p class="info-label">Client</p>
+      <p class="info-value">Black Diamond Motors</p>
+    </div>
+    <div class="info-cell rz d1">
+      <p class="info-label">Scope</p>
+      <p class="info-value">Full Website Build</p>
+    </div>
+    <div class="info-cell rz d2">
+      <p class="info-label">Stack</p>
+      <p class="info-value">HTML · CSS · JavaScript</p>
+    </div>
+    <div class="info-cell rz d3">
+      <p class="info-label">Status</p>
+      <p class="info-value">Live &amp; Official</p>
+    </div>
+  </div>
+
+  <!-- Body copy -->
+  <div class="proj-body">
+    <div class="rz">
+      <p class="proj-pull">
+        A real client.<br><em>A real brief.</em><br>A real outcome.
+      </p>
+    </div>
+    <div class="rz d1">
+      <p class="proj-copy">
+        Black Diamond Motors is a premium car rental company based in Toronto. When they approached me, they had no website — just a fleet of luxury vehicles and a reputation built entirely through Turo and word of mouth. They needed a digital presence that matched the calibre of the cars they rent.
+      </p>
+      <p class="proj-copy">
+        I designed and developed the entire site from scratch: a cinematic hero with animated vehicle showcases, a fleet browser loaded from structured data, a reservation flow, client testimonials, and a mobile-first responsive layout — all in semantic HTML, CSS, and vanilla JavaScript.
+      </p>
+      <p class="proj-adopted">
+        "The Black Diamond Motors team adopted this as their official website. It's live today, represents their brand, and real customers navigate it every day."
+      </p>
+      <a href="#breakdown" class="btn btn-g" style="margin-top:12px">See the Breakdown ↓</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- ═══════════════════════════ BREAKDOWN ═══════════════════════════ -->
+<section id="breakdown">
+
+  <div class="bd-header rz">
+    <p class="bd-eyebrow">Project Breakdown</p>
+    <h2 class="bd-title">Problem →<br><em>Solution → Impact</em></h2>
+  </div>
+
+  <div class="bd-row">
+    <div class="bd-card rz">
+      <div class="bd-ghost-num" aria-hidden="true">01</div>
+      <p class="bd-num">01 · Problem</p>
+      <h3 class="bd-card-title">No Digital<br><em>Presence</em></h3>
+      <p class="bd-card-body">
+        Black Diamond Motors had a strong fleet and loyal customers but no website to reflect that. Potential clients couldn't find them beyond Turo, and there was no way to tell their brand story. The business was growing — its digital identity wasn't.
+      </p>
+    </div>
+    <div class="bd-card rz d1">
+      <div class="bd-ghost-num" aria-hidden="true">02</div>
+      <p class="bd-num">02 · Solution</p>
+      <h3 class="bd-card-title">A Cinematic<br><em>Web Experience</em></h3>
+      <p class="bd-card-body">
+        I built a full multi-page website from scratch with a dark luxury aesthetic, animated vehicle showcases, a data-driven fleet browser, a reservation flow, real client testimonials, and a fully responsive mobile layout — all in pure HTML, CSS, and JavaScript.
+      </p>
+    </div>
+    <div class="bd-card rz d2">
+      <div class="bd-ghost-num" aria-hidden="true">03</div>
+      <p class="bd-num">03 · Impact</p>
+      <h3 class="bd-card-title">Adopted as<br><em>Official Brand</em></h3>
+      <p class="bd-card-body">
+        The client adopted the site as their real, live digital presence — not a prototype, not a mock-up. It now attracts new customers and presents their fleet professionally. Working through multiple revision cycles with a real client shaped how I approach every project since.
+      </p>
+    </div>
+  </div>
+
+</section>
+
+<!-- ═══════════════════════════ AI ═══════════════════════════ -->
+<section id="ai">
+
+  <div class="ai-top">
+    <div class="rz">
+      <p class="ai-eyebrow">Process</p>
+      <h2 class="ai-title">How I Use<br><em>AI as a Tool</em></h2>
+    </div>
+    <p class="ai-intro rz d1">
+      I don't use AI as a shortcut. I use it as an accelerant — a way to move faster through the parts that slow learning, so I can spend more time on the work that actually requires judgement, creativity, and craft.
+    </p>
+  </div>
+
+  <div class="ai-track-wrap">
+    <div class="ai-track">
+      <div class="ai-panel rz">
+        <p class="ai-index">01 · Learning</p>
+        <h3 class="ai-p-title">Concept Exploration</h3>
+        <p class="ai-p-body">I use AI to break down concepts I haven't encountered before — asking it to explain the same idea multiple ways until something clicks. It works like a patient tutor available at 2 AM when I'm deep in a problem.</p>
+      </div>
+      <div class="ai-panel rz d1">
+        <p class="ai-index">02 · Debugging</p>
+        <h3 class="ai-p-title">Faster Diagnosis</h3>
+        <p class="ai-p-body">When something breaks, I describe the behaviour and share relevant code. AI helps me narrow down the source of an issue quickly — but I always understand the fix before applying it. Black-box solutions don't stick.</p>
+      </div>
+      <div class="ai-panel rz d2">
+        <p class="ai-index">03 · Development</p>
+        <h3 class="ai-p-title">Intelligent Scaffolding</h3>
+        <p class="ai-p-body">I use AI to help plan structure and generate boilerplate, then I write, refine, and own the final code myself. It accelerates the early stages without replacing the thinking required to ship quality work.</p>
+      </div>
+      <div class="ai-panel rz d3">
+        <p class="ai-index">04 · Research</p>
+        <h3 class="ai-p-title">Synthesising Options</h3>
+        <p class="ai-p-body">Before building anything, I use AI to survey the landscape — comparing approaches, weighing tradeoffs, identifying the right tools for the context. It helps me make informed decisions faster than reading docs alone.</p>
+      </div>
+      <div class="ai-panel rz">
+        <p class="ai-index">05 · Design</p>
+        <h3 class="ai-p-title">Creative Sounding Board</h3>
+        <p class="ai-p-body">I use AI to pressure-test visual and product directions — exploring alternatives I might not have considered. It's a way to iterate faster on ideas before committing time to execution. The final call is always mine.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="ai-scroll-hint">
+    <span>Scroll to see more</span>
+    <span class="ai-arr">→</span>
+  </div>
+
+</section>
+
+<!-- PHILOSOPHY BAND -->
+<div class="philosophy-band">
+  <div class="rz">
+    <p class="phil-quote">
+      "AI doesn't replace the thinking —<br>it amplifies what you already <em>bring</em> to the table."
+    </p>
+  </div>
+  <div class="phil-right rz d1">
+    <p class="phil-attr">A Principle I Work By</p>
+    <p class="phil-body">
+      Every tool I use — AI included — is only as good as the judgment behind it. Learning to ask the right questions, know what a good answer looks like, and own the output entirely is what separates someone who uses AI from someone who depends on it.
+    </p>
+  </div>
+</div>
+
+<!-- ═══════════════════════════ LEARNED ═══════════════════════════ -->
+<section id="learned">
+
+  <div class="ln-head">
+    <div class="rz">
+      <p class="ln-eyebrow">Reflections</p>
+      <h2 class="ln-title">What I<br><em>Learned</em></h2>
+    </div>
+    <p class="ln-headnote rz d1">Four things this project taught me that no course has.</p>
+  </div>
+
+  <div class="ln-item rz">
+    <p class="ln-n">01</p>
+    <h3 class="ln-t">Problem Solving<br><em>Under Constraint</em></h3>
+    <p class="ln-b">Real projects don't come with perfect specifications. Working with Black Diamond Motors meant translating vague creative direction — "make it feel premium, like the cars" — into concrete design decisions. That gap between intent and execution is where real engineering thinking happens, and no tutorial teaches you to work in it.</p>
+  </div>
+
+  <div class="ln-item rz d1">
+    <p class="ln-n">02</p>
+    <h3 class="ln-t">Client<br><em>Communication</em></h3>
+    <p class="ln-b">Presenting creative work to a real client is a different skill from building it. I learned to explain technical decisions in plain terms, receive feedback without ego, and push back constructively when a suggestion conflicted with the user experience. Communication is at least half the job — in engineering and in business.</p>
+  </div>
+
+  <div class="ln-item rz d2">
+    <p class="ln-n">03</p>
+    <h3 class="ln-t">Iteration &amp;<br><em>Letting Go</em></h3>
+    <p class="ln-b">The first version is never the final version. I went through multiple design revisions — each one informed by real feedback rather than personal preference. I learned to detach from initial ideas and follow what the work actually needs. This is what separates a builder from an artist.</p>
+  </div>
+
+  <div class="ln-item rz d3">
+    <p class="ln-n">04</p>
+    <h3 class="ln-t">Real Stakes<br><em>Change Everything</em></h3>
+    <p class="ln-b">Building something a real business depends on is fundamentally different from a school project. Knowing actual customers would land on this site changed how carefully I tested, how thoroughly I refined details, and how seriously I took ownership. Real stakes produce real growth — and they showed me I thrive under that kind of pressure.</p>
+  </div>
+
+</section>
+
+<!-- ═══════════════════════════ SKILLS ═══════════════════════════ -->
+<section id="skills">
+
+  <div class="sk-head rz">
+    <p class="sk-eyebrow">Capabilities</p>
+    <h2 class="sk-title">Skills &amp;<br><em>Strengths</em></h2>
+  </div>
+
+  <div class="sk-grid">
+    <div class="sk-col rz">
+      <p class="sk-col-label">Technical</p>
+      <div class="sk-row"><span class="sk-name">HTML &amp; CSS</span><span class="sk-tag">Proficient</span></div>
+      <div class="sk-row"><span class="sk-name">JavaScript</span><span class="sk-tag">Proficient</span></div>
+      <div class="sk-row"><span class="sk-name">Responsive Design</span><span class="sk-tag">Proficient</span></div>
+      <div class="sk-row"><span class="sk-name">Python</span><span class="sk-tag">Developing</span></div>
+      <div class="sk-row"><span class="sk-name">UI / UX Design</span><span class="sk-tag">Developing</span></div>
+      <div class="sk-row"><span class="sk-name">Git &amp; Version Control</span><span class="sk-tag">Developing</span></div>
+      <div class="sk-row"><span class="sk-name">AI-Augmented Workflow</span><span class="sk-tag">Proficient</span></div>
+    </div>
+    <div class="sk-col rz d1">
+      <p class="sk-col-label">Non-Technical</p>
+      <div class="sk-row"><span class="sk-name">Client Communication</span><span class="sk-tag">Experienced</span></div>
+      <div class="sk-row"><span class="sk-name">Systems Thinking</span><span class="sk-tag">Experienced</span></div>
+      <div class="sk-row"><span class="sk-name">Independent Learning</span><span class="sk-tag">Experienced</span></div>
+      <div class="sk-row"><span class="sk-name">Iterative Problem Solving</span><span class="sk-tag">Experienced</span></div>
+      <div class="sk-row"><span class="sk-name">Project Ownership</span><span class="sk-tag">Experienced</span></div>
+      <div class="sk-row"><span class="sk-name">Creative Direction</span><span class="sk-tag">Developing</span></div>
+      <div class="sk-row"><span class="sk-name">Entrepreneurial Mindset</span><span class="sk-tag">Developing</span></div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
+<section id="about">
+  <div class="ab-inner">
+
+    <div class="ab-left rz">
+      <p class="ab-eyebrow">About Me</p>
+      <h2 class="ab-title">Builder<br><em>by Nature</em></h2>
+      <p class="ab-copy">
+        I'm a student developer based in Toronto with a deep interest in how things work — mechanically, electrically, and digitally. My goal is to study engineering, whether that's Mechanical, Electrical, or Mechatronic, because I want to build things that exist in the real world, not just on a screen.
+      </p>
+      <p class="ab-copy">
+        Alongside engineering, I'm drawn to entrepreneurship — not as a class, but as a way of thinking. I care about solving real problems, creating real value, and building things people actually use. The Black Diamond Motors project is the first proof of that instinct in action.
+      </p>
+      <div class="ab-interests">
+        <span class="ab-tag">Cars &amp; Automotive</span>
+        <span class="ab-tag">Technology</span>
+        <span class="ab-tag">Engineering</span>
+        <span class="ab-tag">Business</span>
+        <span class="ab-tag">Entrepreneurship</span>
+        <span class="ab-tag">AI &amp; Systems</span>
+        <span class="ab-tag">Design</span>
+      </div>
+    </div>
+
+
+
+      <div class="ab-path">
+        <p class="ab-path-label">Where I'm Headed</p>
+        <div class="ab-path-item">
+          <div class="ab-path-dot"></div>
+          <p class="ab-path-text"><strong>Engineering Degree</strong> — Mechanical, Electrical, or Mechatronic. I want to understand how systems work at a fundamental level.</p>
+        </div>
+        <div class="ab-path-item">
+          <div class="ab-path-dot"></div>
+          <p class="ab-path-text"><strong>Entrepreneurship</strong> — Building and launching real ventures. Not necessarily through a business degree — through doing.</p>
+        </div>
+        <div class="ab-path-item">
+          <div class="ab-path-dot"></div>
+          <p class="ab-path-text"><strong>Intersection of both</strong> — Engineering the product, leading the business. That's the profile I'm building toward.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════ CONTACT ═══════════════════════════ -->
+<section id="contact">
+  <div class="ct-head rz">
+    <p class="ct-eyebrow">Get in Touch</p>
+    <h2 class="ct-title">Let's<br><em>Connect</em></h2>
+  </div>
+
+  <div class="ct-cards">
+    <a href="mailto:ranishumasuthan@gmail.com" class="ct-card rz">
+      <p class="ct-platform">Email</p>
+      <p class="ct-value">ranishumasuthan<br>@gmail.com</p>
+      <div class="ct-action">
+        <span class="ct-action-line"></span>
+        <span>Write to me</span>
+      </div>
+    </a>
+    <a href="https://github.com/23ranish" target="_blank" rel="noopener" class="ct-card rz d1">
+      <p class="ct-platform">GitHub</p>
+      <p class="ct-value">github.com/<br>23ranish</p>
+      <div class="ct-action">
+        <span class="ct-action-line"></span>
+        <span>See my code</span>
+      </div>
+    </a>
+    <a href="https://linkedin.com/in/ranish-umasuthan" target="_blank" rel="noopener" class="ct-card rz d2">
+      <p class="ct-platform">LinkedIn</p>
+      <p class="ct-value">linkedin.com/in/<br>ranish-umasuthan/</p>
+      <div class="ct-action">
+        <span class="ct-action-line"></span>
+        <span>Connect with me</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="ft-inner">
+    <div class="ft-id">
+      <div class="fn">Ranish Umasuthan</div>
+      <div class="fs">Engineer & Entrepreneur · Toronto, ON</div>
+    </div>
+    <ul class="ft-nav">
+      <li><a href="#project">Project</a></li>
+      <li><a href="#ai">AI &amp; Process</a></li>
+      <li><a href="#learned">Reflections</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <div class="ft-bottom">
+    <p>© 2026 · Designed &amp; built by Ranish Umasuthan</p>
+    <p>Made with purpose.</p>
+  </div>
+</footer>
+
+<script>
+/* ── Nav ── */
+let lastY=0;
+const nb=document.getElementById('navbar');
+window.addEventListener('scroll',()=>{
+  const y=window.scrollY;
+  nb.classList.toggle('hide',y>lastY&&y>100);
+  nb.classList.toggle('scrolled',y>40);
+  lastY=y;
+},{passive:true});
+
+/* ── Mobile menu ── */
+function toggleMenu(){
+  document.getElementById('mobMenu').classList.toggle('open');
+  document.getElementById('ham').classList.toggle('open');
+}
+function closeMenu(){
+  document.getElementById('mobMenu').classList.remove('open');
+  document.getElementById('ham').classList.remove('open');
+}
+
+/* ── Scroll reveal ── */
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});
+},{threshold:0.07});
+document.querySelectorAll('.rz').forEach(el=>obs.observe(el));
+
+/* ── Smooth anchor scroll ── */
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    const t=document.querySelector(a.getAttribute('href'));
+    if(!t)return;
+    e.preventDefault();
+    window.scrollTo({top:t.getBoundingClientRect().top+window.scrollY-nb.offsetHeight-12,behavior:'smooth'});
+  });
+});
+
+/* ── Custom cursor ── */
+if(window.matchMedia('(pointer:fine)').matches){
+  const c=document.getElementById('cursor');
+  const r=document.getElementById('cursorRing');
+  let mx=0,my=0,rx=0,ry=0;
+  document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;c.style.left=mx+'px';c.style.top=my+'px';});
+  (function loop(){rx+=(mx-rx)*.13;ry+=(my-ry)*.13;r.style.left=rx+'px';r.style.top=ry+'px';requestAnimationFrame(loop);})();
+  const big=e=>{if(e.target.closest('a,button,.bd-card,.ai-panel,.ct-card,.sk-row,.ln-item,.ab-tag')){r.style.width='50px';r.style.height='50px';r.style.borderColor='rgba(201,168,76,0.55)';}};
+  const small=e=>{if(e.target.closest('a,button,.bd-card,.ai-panel,.ct-card,.sk-row,.ln-item,.ab-tag')){r.style.width='32px';r.style.height='32px';r.style.borderColor='rgba(201,168,76,0.5)';}};
+  document.addEventListener('mouseover',big);
+  document.addEventListener('mouseout',small);
+}
+</script>
+</body>
+</html>
